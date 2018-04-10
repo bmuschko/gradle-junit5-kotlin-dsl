@@ -14,6 +14,7 @@ val junitPlatformVersion = "1.1.0"
 val spekVersion = "1.1.5"
 
 dependencies {
+    testImplementation(kotlin("reflect", kotlinVersion))
     testImplementation(kotlin("test", kotlinVersion))
     
     testImplementation("org.jetbrains.spek:spek-api:$spekVersion") {
