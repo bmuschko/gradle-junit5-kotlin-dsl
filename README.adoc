@@ -1,0 +1,1 @@
+= Gradle project using the Kotlin DSL with JUnit 5 image:https://travis-ci.org/bmuschko/gradle-junit5-kotlin-dsl.svg?branch=master["Build Status", link="https://travis-ci.org/bmuschko/gradle-junit5-kotlin-dsl"]
