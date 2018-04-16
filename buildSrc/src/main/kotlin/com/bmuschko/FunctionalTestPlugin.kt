@@ -33,6 +33,6 @@ class FunctionalTestPlugin : Plugin<Project> {
             }
         }
 
-        tasks.getByName("check").dependsOn(functionalTest)
+        tasks["check"].dependsOn(functionalTest)
     }
 }
